@@ -1,4 +1,4 @@
 # Sistemas_Operativos
 
-Profesor: Ramiro Lupercio Coronel
+Profesor: Ramiro Lupercio Coronel \b
 Semestre 7
