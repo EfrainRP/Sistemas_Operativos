@@ -123,7 +123,7 @@ def conversion(x):
             try:
                 # resultado = aux
                 resultado = int(str(aux),16)  
-                HexOut.insert(0,str(resultado))
+                DecOut.insert(0,str(resultado))
             except:
                 print('Tipo de Valor Incorrecto')
         
