@@ -74,55 +74,89 @@ def conversion(x):
     signo=x
     aux=txtDisplay.get()
     txtDisplay.delete(0,END) #############
+    resultado = ""
 
     regex = re.compile(r'^[0-9A-Fa-f]+$') #Acepta numeros del 0 al 9 asi como de la A a la F, y minusculas de esas letras
     if regex.fullmatch(aux):
         if signo=="DecBin":
             try:
-                resultado = bin(int(aux))
-                resultado = resultado.removeprefix('0b')
-                BinOut.insert(0,str(resultado))
+                aux = int(aux)
+                if aux == 0:
+                    BinOut.insert(0,'0')
+                else:
+                    while aux > 0:
+                        sob = aux % 2
+                        resultado = str(sob) + resultado
+                        aux = aux // 2 # Division entera
+                    BinOut.insert(0,resultado)
             except:
                 print('Tipo de Valor Incorrecto')
 
         elif signo=="DecOct":
             try:
-                resultado = oct(int(aux))
-                resultado = resultado.removeprefix('0o')
-                OctOut.insert(0,str(resultado))
+                aux = int(aux)
+                if aux == 0:
+                    OctOut.insert(0,'0')
+                else:
+                    while aux > 0:
+                        sob = aux % 8
+                        resultado = str(sob) + resultado
+                        aux = aux // 8 # Division entera
+                    OctOut.insert(0,resultado)
             except:
                 print('Tipo de Valor Incorrecto')
 
         elif signo=="DecHex":
             try:
-                resultado = hex(int(aux))
-                resultado = resultado.removeprefix('0x')
-                HexOut.insert(0,str(resultado))
+                aux = int(aux)
+                if aux == 0:
+                    HexOut.insert(0,'0')
+                else:
+                    while aux > 0:
+                        sob = aux % 16
+                        # Condicion ternaria para establcer rangos de los numeros, de 10 en adelante para las letras A-F
+                        # donde se usa la tabla ASCII, +55 para alcanzar esas letras en la tabla ASCII
+                        resultado = str(sob if sob < 10 else chr(sob+55)) + resultado
+                        aux = aux // 16 # Division entera
+                    HexOut.insert(0,resultado)
             except:
                 print('Tipo de Valor Incorrecto')
 
         elif signo=="BinDec":
             try:
-                resultado = int(aux)
-                # print(aux)
-                # print(int(str(int(aux)),2))
-                resultado = int(str(resultado),2)
+                resultado = 0
+                long = len(aux)
+                for b in range(long):
+                    bit = int(aux[long-1 - b]) #Para recorrer de derecha a izquierda
+                    resultado += bit*(2**b)
+
                 DecOut.insert(0,str(resultado))
             except:
                 print('Tipo de Valor Incorrecto')
 
         elif signo=="OctDec":
             try:
-                resultado = int(aux)
-                resultado = int(str(resultado),8)
+                resultado = 0
+                long = len(aux)
+                for b in range(long):
+                    bit = int(aux[long-1 - b])  # Para recorrer de derecha a izquierda
+                    resultado += bit*(8**b) if bit < 10 else chr(sob+55)
+
                 DecOut.insert(0,str(resultado))
             except:
                 print('Tipo de Valor Incorrecto')
 
         elif signo=="HexDec":
             try:
-                # resultado = aux
-                resultado = int(str(aux),16)  
+                resultado = 0
+                hexValue = {'A':10,'B':11,'C':12,'D':13,'E':14,'F':15}
+                long = len(aux)
+                for b in range(long):
+                    bit = aux[long-1 - b] # Para recorrer de derecha a izquierda
+                    if bit.isalpha():
+                        bit = hexValue[bit]
+                    resultado += int(bit)*(16**b)
+
                 DecOut.insert(0,str(resultado))
             except:
                 print('Tipo de Valor Incorrecto')
