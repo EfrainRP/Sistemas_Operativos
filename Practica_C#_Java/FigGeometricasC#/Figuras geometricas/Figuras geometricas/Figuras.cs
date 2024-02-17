@@ -42,7 +42,7 @@ namespace Figuras_geometricas
         }
     }
 
-    // Fig CUADRADO
+    // Figura CUADRADO
     class Cuadrado:Figuras
     {
         protected Double lado1;
@@ -73,16 +73,18 @@ namespace Figuras_geometricas
             return this.lado2;
         }
     }
-    class Triangulo:Figuras
+    // Figura TRIANGULO
+    class Triangulo :Figuras
     {
         public new void calcularArea()
         {
             area_ = (this.altura_ * this.base_)/2;
         }
     }
+    // Figura RECTANGULO
     class Rectangulo : Figuras { }
-
-    class Poligono:Figuras 
+    // Figura POLIGONO
+    class Poligono :Figuras 
     {
         protected Double perimetro;
         protected Double apotema;
@@ -106,7 +108,6 @@ namespace Figuras_geometricas
         {
             return this.perimetro;
         }
-
         public Double getApotema()
         {
             return this.apotema;

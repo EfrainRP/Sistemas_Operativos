@@ -105,7 +105,6 @@
             this.Base.Size = new System.Drawing.Size(100, 20);
             this.Base.TabIndex = 6;
             this.Base.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Base.TextChanged += new System.EventHandler(this.Base_TextChanged);
             // 
             // Altura
             // 
@@ -114,7 +113,6 @@
             this.Altura.Size = new System.Drawing.Size(100, 20);
             this.Altura.TabIndex = 7;
             this.Altura.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Altura.TextChanged += new System.EventHandler(this.Altura_TextChanged);
             // 
             // Area
             // 

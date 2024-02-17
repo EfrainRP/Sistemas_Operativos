@@ -20,15 +20,6 @@ namespace Figuras_geometricas
         {
             InitializeComponent();
         }
-
-        private void Base_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void Altura_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         private void calcular_Click(object sender, EventArgs e)
         {
             //Verificara que los datos INPUT sean numeros
@@ -36,9 +27,9 @@ namespace Figuras_geometricas
             bool baseNum = double.TryParse(Base.Text, out base_);
             bool alturaNum = double.TryParse(Altura.Text, out altura_);
 
-            String figuraUI = listFig.SelectedItem.ToString();
             if (baseNum && alturaNum && base_>=0 && altura_>=0)
             {
+                String figuraUI = listFig.SelectedItem.ToString();
                 if (figuraUI.Equals("Cuadrado"))
                 {
                     cuadrado = new Cuadrado();
