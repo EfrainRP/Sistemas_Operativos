@@ -1,0 +1,10 @@
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\bin\Debug\Figuras geometricas.exe.config
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\bin\Debug\Figuras geometricas.exe
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\bin\Debug\Figuras geometricas.pdb
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras geometricas.csproj.AssemblyReference.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras_geometricas.Form1.resources
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras_geometricas.Properties.Resources.resources
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras geometricas.csproj.GenerateResource.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras geometricas.csproj.CoreCompileInputs.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras geometricas.exe
+E:\Documents_PC\UDG_Materias\SO\Practica_C#_Java\FigGeometricasC#\Figuras geometricas\Figuras geometricas\obj\Debug\Figuras geometricas.pdb
