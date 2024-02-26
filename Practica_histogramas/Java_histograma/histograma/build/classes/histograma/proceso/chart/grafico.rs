@@ -1,0 +1,1 @@
+histograma.proceso.chart.Grafico

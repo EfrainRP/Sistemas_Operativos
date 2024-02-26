@@ -1,0 +1,10 @@
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\bin\Debug\histograma.exe.config
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\bin\Debug\histograma.exe
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\bin\Debug\histograma.pdb
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.csproj.AssemblyReference.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.Form1.resources
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.Properties.Resources.resources
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.csproj.GenerateResource.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.csproj.CoreCompileInputs.cache
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.exe
+E:\Documents_PC\UDG_Materias\SO\Practica_histogramas\C#_histograma\histograma\histograma\obj\Debug\histograma.pdb
