@@ -1,4 +1,5 @@
 .vscode
+*.iso
 .DS_Store
 /bin
 /env
